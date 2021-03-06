@@ -80,7 +80,7 @@ class _MyHomePageState extends State<MyHomePage> {
             child: stories(),
           ),
           Padding(
-            padding: const EdgeInsets.only(top: 220, left: 10),
+            padding: const EdgeInsets.only(top: 220),
             child: PublicPosts(),
           ),
           // Positioned(
