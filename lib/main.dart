@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:instagram_ui/posts.dart';
 import 'package:instagram_ui/stories.dart';
 
 void main() {
@@ -49,7 +50,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 height: 60,
                 width: 80,
                 child: Icon(
-                  Icons.camera_alt_outlined,
+                  Icons.add_box_outlined,
                   size: 30,
                   color: Colors.white,
                 ),
@@ -77,6 +78,10 @@ class _MyHomePageState extends State<MyHomePage> {
           Padding(
             padding: const EdgeInsets.only(top: 100),
             child: stories(),
+          ),
+          Padding(
+            padding: const EdgeInsets.only(top: 220, left: 10),
+            child: PublicPosts(),
           ),
           Positioned(
             bottom: 0,
