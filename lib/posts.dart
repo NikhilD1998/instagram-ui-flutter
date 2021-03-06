@@ -26,7 +26,7 @@ class PublicPosts extends StatelessWidget {
           ],
         ),
         Container(
-          padding: EdgeInsets.only(top: 10),
+          padding: EdgeInsets.only(top: 10, bottom: 20),
           width: MediaQuery.of(context).size.width * 1,
           height: MediaQuery.of(context).size.height * 0.55,
           child: Image(

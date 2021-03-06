@@ -83,37 +83,37 @@ class _MyHomePageState extends State<MyHomePage> {
             padding: const EdgeInsets.only(top: 220, left: 10),
             child: PublicPosts(),
           ),
-          Positioned(
-            bottom: 0,
-            left: 0,
-            child: Row(
-              children: [
-                Padding(
-                  padding: const EdgeInsets.all(20.0),
-                  child: bottomNavigationIcons(Icons.home_filled),
-                ),
-                Padding(
-                  padding: const EdgeInsets.all(20.0),
-                  child: bottomNavigationIcons(Icons.search),
-                ),
-                Padding(
-                  padding: const EdgeInsets.all(20.0),
-                  child: bottomNavigationIcons(Icons.movie_creation_outlined),
-                ),
-                Padding(
-                  padding: const EdgeInsets.all(20.0),
-                  child: bottomNavigationIcons(Icons.favorite_border),
-                ),
-                Padding(
-                  padding: const EdgeInsets.all(20.0),
-                  child: CircleAvatar(
-                    backgroundImage: AssetImage('assets/images/11.jpg'),
-                    radius: 15,
-                  ),
-                )
-              ],
-            ),
-          ),
+          // Positioned(
+          //   bottom: 0,
+          //   left: 0,
+          //   child: Row(
+          //     children: [
+          //       Padding(
+          //         padding: const EdgeInsets.all(20.0),
+          //         child: bottomNavigationIcons(Icons.home_filled),
+          //       ),
+          //       Padding(
+          //         padding: const EdgeInsets.all(20.0),
+          //         child: bottomNavigationIcons(Icons.search),
+          //       ),
+          //       Padding(
+          //         padding: const EdgeInsets.all(20.0),
+          //         child: bottomNavigationIcons(Icons.movie_creation_outlined),
+          //       ),
+          //       Padding(
+          //         padding: const EdgeInsets.all(20.0),
+          //         child: bottomNavigationIcons(Icons.favorite_border),
+          //       ),
+          //       Padding(
+          //         padding: const EdgeInsets.all(20.0),
+          //         child: CircleAvatar(
+          //           backgroundImage: AssetImage('assets/images/11.jpg'),
+          //           radius: 15,
+          //         ),
+          //       )
+          //     ],
+          //   ),
+          // ),
         ],
       ),
     );
